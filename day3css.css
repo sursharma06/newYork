@@ -1,6 +1,6 @@
 body {
   font-family: Arial;
-  background-image: url(http://31.media.tumblr.com/a20170d2d52931af8c422b2c4a138bd2/tumblr_mif4utqRfZ1riml7wo1_500.gif);
+  /*background-image: url(http://31.media.tumblr.com/a20170d2d52931af8c422b2c4a138bd2/tumblr_mif4utqRfZ1riml7wo1_500.gif);*/
   background-size: cover;
   text-align: center;
   color: blue;
@@ -10,6 +10,7 @@ body {
   padding-top: 20px;
   border: 4px solid white;
   width: 80px;
+
 }
 #outerbox {
   /*margin: 0 auto;
@@ -20,4 +21,31 @@ body {
 }
 h1 {
   text-shadow: 2px 2px red;
+}
+
+#col1 {
+  width: 60%;
+  background-color: red;
+  float: left;
+}
+#col2 {
+  width: 40%;
+  background-color: yellow;
+  float: right;
+}
+
+footer{
+  background-color: green;
+  clear: both;
+}
+ul {
+  padding: 0; /*made the bullet points disappear*/
+}
+li {
+  display: inline-block;
+  padding: 20px;
+}
+header{
+  background-color: grey;
+
 }
