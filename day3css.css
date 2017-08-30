@@ -1,0 +1,23 @@
+body {
+  font-family: Arial;
+  background-image: url(http://31.media.tumblr.com/a20170d2d52931af8c422b2c4a138bd2/tumblr_mif4utqRfZ1riml7wo1_500.gif);
+  background-size: cover;
+  text-align: center;
+  color: blue;
+}
+.box {
+  margin: 0 auto;
+  padding-top: 20px;
+  border: 4px solid white;
+  width: 80px;
+}
+#outerbox {
+  /*margin: 0 auto;
+  width: 200px;*/
+  padding-top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+h1 {
+  text-shadow: 2px 2px red;
+}
